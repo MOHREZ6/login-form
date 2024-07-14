@@ -1,11 +1,9 @@
- 
-function HomePage(){
+import Login from "../components/Login"
 
-    return(
-        <div>
-            <h2>home page</h2>
-        </div>
-    )
+
+function HomePage() {
+  return   <Login>  </Login>
+  
 }
 
-export default HomePage
+export default HomePage;
