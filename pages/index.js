@@ -1,8 +1,10 @@
-import Login from "../components/Login"
+  import Login from "../components/Login"
 
 
 function HomePage() {
-  return   <Login>  </Login>
+  return  <Login></Login>
+     
+  
   
 }
 
