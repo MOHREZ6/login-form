@@ -44,7 +44,7 @@ function Login() {
             placeholder="Password"
             className="w-full	py-3 mt-1 border-2   p-4 focus:border-transparent focus:outline-none		rounded pl-2		"
           ></input>
-          {errors.password && (<div>{errors.password.message}</div>)}
+          {errors.password && (<div className="text-red-500">{errors.password.message}</div>)}
           <div className=" flex justify-between		">
             <div className="my-3.5">
               <input
